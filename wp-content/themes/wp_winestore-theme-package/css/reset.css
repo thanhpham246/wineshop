@@ -1,0 +1,131 @@
+/*==============================================================*/
+/*                       Reset Elemens                          */
+/*==============================================================*/
+	*{margin:0;padding:0;}
+	body{font-size:12px;line-height:14px;text-align:left;vertical-align: baseline;/*position:relative;*/float:left;width:100%;-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased;word-wrap:break-word;-ms-word-wrap: break-word;}
+	html,body { -webkit-text-size-adjust:none; }
+	img{border:0;vertical-align:top;max-width:100%;height:auto;}
+	a{text-decoration:none;cursor:pointer;background:transparent;-webkit-tap-highlight-color:transparent;-webkit-focus-ring-color:transparent}
+	a:hover{text-decoration:none;-webkit-tap-highlight-color: transparent;-moz-tap-highlight-color: transparent;-o-tap-highlight-color: transparent;opacity:1;filter:alpha(opacity=100)}
+	a:hover img{opacity:1;filter:alpha(opacity=100)}
+	a.button:hover {text-decoration:none;}
+	:focus{ outline:0;-webkit-tap-highlight-color: transparent;-moz-tap-highlight-color: transparent;-o-tap-highlight-color: transparent;}
+	p {display:block;font-size:12px;line-height:14px}
+	strong {font-weight:bold;}
+	strong em,em strong {font-weight:normal;font-style:normal}
+	pre {overflow:hidden;}
+
+/* Heading */
+	h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+	h1,h2,h3{font-family:"PT Sans"}
+	h1{font-size:40px;margin:0 0 10px;text-transform:uppercase; line-height:42px}
+	h2{font-size:20px;margin:0 0 10px;text-transform:uppercase; line-height:22px;font-weight:bold;margin-bottom:13px}
+	h3{font-size:14px;margin:0 0 5px;text-transform:uppercase; line-height:14px;font-weight:bold;margin-bottom:16px}
+	h4{font-size:12px;text-transform:uppercase; line-height:14px;margin-bottom:16px;}
+	h5{font-size:12px;text-transform:normal; line-height:14px}
+	h6{font-size:12px;text-transform:uppercase; line-height:14px}
+	h1.heading-title.page-title {text-transform:uppercase;font-size:20px;line-height:22px;text-align:left;display:inline-block;font-weight:bold;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;margin-bottom:35px;}
+/* Form */
+	form{display:inline;}
+/* Table */
+	table{border-collapse:collapse;border-spacing:0;empty-cells:show;font-size:100%;}/* tables still need 'cellspacing="0"' in the markup */
+	.single-post .single-content table, .widget_text table, .post-info-1 table {width:100%;margin:20px 0;border-width:1px 1px 1px 0;border-style:solid;border-collapse:separate;}
+	.single-post .single-content table th, .widget_text table th, .single-post .single-content table td, .widget_text table td, .post-info-1 table td, .post-info-1 table th {border-width:1px 0 0 1px;border-style:solid;padding:8px;text-align:left;vertical-align:top;line-height:18px;}
+	.single-post .single-content table thead:first-child tr:first-child th, .single-post .single-content table tbody:first-child tr:first-child th, .single-post .single-content table tbody:first-child tr:first-child td,.widget_text table thead:first-child tr:first-child th, .widget_text table tbody:first-child tr:first-child th, .widget_text table tbody:first-child tr:first-child td, .post-info-1 table thead:first-child tr:first-child th, .post-info-1 table tbody:first-child tr:first-child th, .post-info-1 table tbody:first-child tr:first-child td {border-top:0;}
+/* List */
+	ul,ol,ol ul{margin-top:25px;}
+	ul li,ol li{font-size:12px;line-height:14px;list-style-position:inside;color:#2a2a2a;margin:6px 0}
+	ol ol, ol ul, ul ul,ul ol{margin-left:50px;margin-bottom:0;}
+	ol ol ul{margin-left:30px;}
+	ul li {list-style-type: disc;}/*Dang 01 02*/
+	ol ul  li {list-style:upper-alpha}/* dang A B*/
+	ol ol ul  li ,ol ul ul li{list-style-type:upper-roman;}/* dang I II*/
+/* Definition Lists */
+	dl {margin-bottom:20px;}
+	dt, dd {line-height:16px;}
+	dt {font-weight:bold;}
+	dd {margin-left:10px;}
+/* Content */
+	del {text-decoration:line-through;}
+	.background-code pre{border:1px dotted}
+/* blockquote */
+	blockquote {overflow:hidden;background:url(../images/shortcode/quote_start.png) no-repeat 0 0;padding:14px 0 0 75px;font-style:normal;margin-bottom:20px;min-height:40px;text-align:left}
+	blockquote p {}
+	address{text-align:left}
+/* code primary short code*/
+	body code{overflow:hidden;display:block;padding:25px 35px 25px 20px;border-width:1px;border-style:dashed;font-size:16px;line-height:20px;margin:20px 0 20px;word-wrap:break-word;word-break:break-all;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;white-space:normal;background-color:#f9f9f9}
+	body table code {white-space:normal}
+
+/* Form Elements */
+	input,select,textarea, select option{font-weight:normal;font-size:12px!important;max-width:100%;}
+	input[type^=text],input[type^=password],input[type^=email] {position:relative;margin-top:3px;line-height:14px!important;padding:5px 6px;width:100%;max-width:559px;border-width:1px;border-style:solid;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-webkit-appearance:none;border-radius:3px!important;-moz-border-radius:2px!important;-webkit-border-radius:2px!important;-o-border-radius:2px!important;}
+	textarea {background:#ffffff;border-width:1px;border-style:solid;font-size:12px;font-weight:bold;padding:5px 8px 4px;-webkit-appearance:none;-webkit-border-radius:0!important;}
+	select {background:#ffffff;border:1px solid #d5d5d5;font-size:12px;font-weight:bold;padding:3px 0 3px 8px;}
+	select option {padding:0 8px;}
+	textarea {overflow:auto;}
+	table {max-width:100%;table-layout:fixed;}
+	table tbody, table tfood {max-width:100%;}
+	button.button:-moz-focus-inner {padding:0;border:0;/* overrides extra padding in Firefox */} /* FF Fix */
+	button.button {-webkit-border-fit:lines;} /* <- Safari & Google Chrome Fix */
+	button.button, a.button {overflow:visible;/* removes extra side padding in IE */width:auto; border:0; padding:0; margin:0; background:transparent; cursor:pointer;}
+	button.button span, a.button span {display:block;text-align:center; white-space:nowrap; padding:0 0 0 3px;width:auto;background-position:0 0;background-repeat:no-repeat;}
+	button.button span span, a.button span span {font-weight:bold;background-position:100% 100%;}
+	input[type^=submit] {border:0;padding:3px 10px 2px;line-height:20px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;-o-border-radius:2px;}
+	a.button{display:inline-block;}
+	input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {-webkit-box-shadow:0 0 0 50px white inset;-webkit-text-fill-color: #333}
+	#accordion-checkout-details .accordion-inner input[type^=button],#accordion-checkout-details .accordion-inner form.login input.button,
+	form.checkout_coupon input.button,body form.checkout #payment #place_order,input[type^=submit],.loading-mark-up  {-webkit-appearance: none;}
+
+/* Remove ... in abbr */
+	@-moz-document url-prefix() { #footer abbr { display:table-row-group; } } /* fix firefox */
+
+/* Others */
+	.adtext{text-decoration:normal}
+	.clear {clear:both;min-height:1px;width:100%;clear:both;}
+	.clearboth {clear:both;}
+	.clearleft {clear:left;}
+	.noimage{margin-left:0;}
+	.alignleft {float:left!important;margin:0 20px 20px 0!important;max-width:100%;height:auto;}
+	.alignright {float:right;margin:0 0 20px 20px!important;max-width:100%;height:auto;}
+	.aligncenter {display:block;margin:0 auto 20px;max-width:100%;height:auto;}
+	body .woocommerce .star-rating:before,body .woocommerce-page .star-rating:before,body .woocommerce .star-rating span:before,body .woocommerce-page .star-rating span:before  {font-size:12px;}
+	iframe {max-width:100%}
+	iframe html {position:relative;z-index:1;}
+	.mapp-layout {max-width:100%;}
+
+/* Default class of WP */
+	.sticky{}
+	.bypostauthor{}
+	.gallery-caption {}
+	.screen-reader-text {position: absolute;font-size:0;color:transparent;display:none;}
+	.edit-link{display:none;}
+
+/* Reset Style Woocommerce */
+	#map_container img {max-width:1000000000px;}
+	html .woocommerce a.button,
+	html .woocommerce button.button, html .woocommerce input.button,
+	html .woocommerce #respond input#submit, html .woocommerce #content input.button,
+	html .woocommerce-page a.button, html .woocommerce-page button.button,
+	html .woocommerce-page input.button, html .woocommerce-page #respond input#submit,
+	html .woocommerce-page #content input.button 
+	{background-image:none;text-shadow:none!important;-moz-text-shadow:none!important;-webkit-text-shadow:none!important;-o-text-shadow:none!important;box-shadow:none!important;-moz-box-shadow:none!important;-webkit-box-shadow:none!important;-o-box-shadow:none!important;line-height:14px!important;}
+	.woocommerce a.button:hover, .woocommerce button.button:hover,
+	.woocommerce input.button:hover, .woocommerce #respond input#submit:hover,
+	.woocommerce #content input.button:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover,
+	.woocommerce-page input.button:hover, 
+	.woocommerce-page #respond input#submit:hover, 
+	.woocommerce-page #content input.button:hover {background-image:none!important;}
+	.price > del {text-decoration:none;}
+/* fix bug admin bar lag */
+	#wpadminbar{-webkit-transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+/* Reset for Default Button Style */
+	body .woocommerce a.button:hover,
+	body .woocommerce button.button:hover,
+	body .woocommerce input.button:hover,
+	body .woocommerce #respond input#submit:hover,
+	body .woocommerce #content input.button:hover,
+	body .woocommerce-page a.button:hover,
+	body .woocommerce-page button.button:hover,
+	body .woocommerce-page input.button:hover,
+	body .woocommerce-page #respond input#submit:hover,
+	body .woocommerce-page #content input.button:hover  {background-image:none!important;}

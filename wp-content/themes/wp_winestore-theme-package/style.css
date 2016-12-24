@@ -1,0 +1,44 @@
+/*
+Theme Name:WD WineStore (shared on wplocker.com)
+Theme URI: http://wpdance.com/
+Description: Commerce Template
+Author: WPDance Team / WPDance.com
+Author URI: http://wpdance.com/
+Version: 2.1.1
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, fluid-layout, fixed-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, translation-ready
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*========================== GENERAL ==============================*/
+
+/*************************** 1. Reset ******************************/
+@import url(css/reset.css);
+
+/* ========================= PRIVATE  ============================*/
+@import url(css/stylesheet.css);
+@import url(fonts/Relaway/stylesheet.css);
+@import url(fonts/Myriad Pro/stylesheet.css);
+@import url(css/private_browser.css);
+@import url(fonts/Opensans/stylesheet.css);
+
+.fredsel_slider_wrapper_inner ul li {
+   border: 0 none;
+    display: block;
+    float: left;
+    margin: 0;
+    position: relative;
+	cursor:default!important;
+}
+
+body .woocommerce fieldset .form-row.form-row-thirds, body .woocommerce-page fieldset .form-row.form-row-thirds {margin-left:0;}
+
+/* UPDATE THEME TO WOO 2.3 BY MY */
+input.qty {-webkit-appearance:textfield;-moz-appearance:textfield;border-width:1px!important;margin-left:0!important;}
+div.pp_woocommerce .pp_loaderIcon:before,
+.woocommerce .blockUI.blockOverlay:before, .woocommerce .loader:before {background:url(images/ajax-loader-01.gif) center no-repeat;animation:none;-webkit-animation:none;-moz-animation:none;}
+body.woocommerce .quantity input.qty, body.woocommerce #content .quantity input.qty, body.woocommerce-page .quantity input.qty, body.woocommerce-page #content .quantity input.qty {-webkit-appearance:textfield;-moz-appearance:textfield;padding:5px;}
+body.woocommerce .quantity, body.woocommerce #content .quantity, body.woocommerce-page .quantity, body.woocommerce-page #content .quantity {margin-left:auto;margin-right:auto;}
+html .woocommerce div.product form.cart div.quantity, html .woocommerce #content div.product form.cart div.quantity, html .woocommerce-page div.product form.cart div.quantity, html .woocommerce-page #content div.product form.cart div.quantity {width:auto;}
+.woocommerce #content div.product div.thumbnails li a, .woocommerce div.product div.thumbnails li a, .woocommerce-page #content div.product div.thumbnails li a, .woocommerce-page div.product div.thumbnails li a {width:auto;height:auto;}
+html body.woocommerce .pp_content_container div.product div.images a.woocommerce-main-image, html body.woocommerce-page .pp_content_container div.product div.images a.woocommerce-main-image {width:auto!important;max-width:100%;height:auto;}

@@ -1,0 +1,24 @@
+
+
+/* HEADER */
+/*.header-top,
+.nav ul#menu-main-menu > li ul.sub-menu,
+#header .nav ul#menu-main-menu > li:hover,
+#header .header-main-content .mobile_search  {background-color:#141414;}
+.sticky-wrapper.is-sticky .header-top {background:rgba(20,20,20,0.85)}*/
+/*.sticky-wrapper.is-sticky .header-top:hover {background:rgba(20,20,20,1)}*/
+/*.header-top .nav ul#menu-main-menu > li > a {color:#fff;}*/
+
+/* BODY */
+
+/*body {background:#fff;}*/
+
+/* CONTAIN */
+/*#main {color:#646464;}*/
+
+/* WIDGET PRODUCT */
+/*body .woocommerce ul.products li.product,body .woocommerce-page ul.products li.product {border-color:#d5d5d5;}
+body .woocommerce .custom-product-shortcode ul.products li.product a[href^=http], body .woocommerce-page .custom-product-shortcode ul.products li.product a[href^=http]{border-bottom:1px dotted #d5d5d5}
+body .woocommerce ul.products li.product .promotion-title,body .woocommerce ul.products li.products .promotion-title  {color:#cc4c51}*/
+
+/*#main-module-container .wd_tini_cart span, #main-module-container .wd_tini_cart label {font-family:helvetica;}*/

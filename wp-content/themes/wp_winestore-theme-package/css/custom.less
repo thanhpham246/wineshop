@@ -1,0 +1,92 @@
+// Font
+@body_font:helvetica,sans-serif;
+@body_font_weight:normal;
+@body_font_style:normal;
+
+@menu_font:arial;
+@menu_font_weight:normal;
+@menu_font_style:normal;
+
+
+@heading_font:helvetica;
+@heading_font_weight:normal;
+@heading_font_style:normal;
+// Primary
+@theme_color:#141414;
+@heading_color:#141414;
+@text_color:#646464;
+@link_color:#141414;
+@button_background:#141414;
+@button_text_color:#fff;
+@border_color:#d5d5d5;
+
+
+// Header
+@header_menu_background:#141414;
+@header_menu_text_color:#fff;
+@header_sub_menu_background:null;
+@header_sub_menu_text_color:null;
+@sub_menu_hover_bg:#6A84B9;
+
+// Footer
+@footer_background:#fafafa;
+@footer_border:#e6e6e6;
+@footer_heading_color:#323232;
+@footer_text_color:#646464;
+
+
+// Sidebar
+@sidebar_heading_text_color: #141414;
+@filter:#141414;
+@catagories_current_item_color:#6a84b9;
+
+// Especial
+@feedback_background:#141414;
+@totop_background:#141414;
+@scollbar:#141414;
+@sale_background_color:#cc4c51;
+@sale_text_color:#fff;
+@feature_background_color:#72284c;
+@feature_text_color:#fff;
+@rating_color:#EEAA4E; 
+
+
+// Functions
+.gradient(@start, @end) {
+    background: mix(@start, @end, 50%);
+    filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorStr="@start~", EndColorStr="@end~")";
+    background: -webkit-gradient(linear, left top, left bottom, from(@start), to(@end));
+    background: -webkit-linear-gradient(@start, @end);
+    background: -moz-linear-gradient(top, @start, @end);
+    background: -ms-linear-gradient(@start, @end);
+    background: -o-linear-gradient(@start, @end);
+    background: linear-gradient(@start, @end);
+    zoom: 1;
+}
+
+/*==============================================================*/
+/*                     ^^ CUSTOM FONT ^^                        */
+/*==============================================================*/
+
+body,input, button, select, textarea, a
+	{
+		font-family:@body_font;
+		font-style:@body_font_style;
+		font-weight:@body_font_weight;
+	}
+#header .nav ul#menu-main-menu > li.columns-2 > ul.sub-menu > li > a > span,#header .nav ul#menu-main-menu > li a.shop-now, #header .nav ul#menu-main-menu > li a.link-shop,
+#header .nav ul#menu-main-menu > li a.shop-all-menu,#footer .widget_customrecent ul li .entry-meta .entry-year,
+#header .nav ul#menu-main-menu li p, #header .nav ul#menu-main-menu li span, .blog-template, .addresses address, #header .nav ul#menu-main-menu li a 
+	{
+		font-family:@menu_font;
+		font-style:@menu_font_style;
+		font-weight:@menu_font_weight;		
+	}
+// Heading Font
+h1.heading-title.page-title,h1,h2,h3,h4,h5,h6,.heading-title
+	{
+		font-family:@heading_font;
+		font-style:@heading_font_style;
+		font-weight:@heading_font_weight;		
+	}
+

@@ -1,0 +1,9 @@
+
+/* STYLE FOR PLUGIN SLIDE */
+
+.wd_slide {display:inline-block;max-width:100%;}
+.wd_slide .carousel-indicators{display:none;}
+.wd_slide .carousel-control {display:inline-block;width:40px;height:40px;border:0;position:absolute;top:50%;margin-top:-20px;font-size:0;line-height:0;color:transparent;background-image:url(../images/icon_nav_slider.png);background-repeat:0 0;background-color:#fff;}
+.wd_slide .carousel-control.left {background-position:0 0;}
+.wd_slide .carousel-control.right {background-position:-40px 0;}
+.wd_slide .carousel-caption a {color:#fff;}
